@@ -63,7 +63,6 @@ window = Tk()
 window.title("Сохранение файлов в облаке")
 window.geometry("400x200")
 
-
 button = ttk.Button(text="Загрузить файл", command=upload)
 button.pack()
 
